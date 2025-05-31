@@ -55,7 +55,7 @@ function Footer() {
             <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
               <li>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/gametoaim"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
@@ -79,7 +79,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/game.to.aim/"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
@@ -152,7 +152,7 @@ function Footer() {
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
                 >
-                  <span className="sr-only">Dribbble</span>
+                  <span className="sr-only">LinkedIn</span>
 
                   <svg
                     className="size-6"

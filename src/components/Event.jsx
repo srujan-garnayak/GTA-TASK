@@ -1,6 +1,6 @@
 import React from "react";
 
-function Tournament() {
+function Event() {
   return (
     <div>
       <section>
@@ -13,7 +13,8 @@ function Tournament() {
                 </h2>
 
                 <p className="mt-4 text-gray-50">
-                  Join epic gaming tournaments with top players and show your skill in a competitive arena.
+                  Join epic gaming tournaments with top players and show your
+                  skill in a competitive arena.
                 </p>
               </div>
             </div>
@@ -32,4 +33,4 @@ function Tournament() {
   );
 }
 
-export default Tournament;
+export default Event;
