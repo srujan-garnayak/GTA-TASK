@@ -2,6 +2,7 @@
 import './App.css'
 import Community from './components/Community'
 import Event from './components/Event'
+import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Tournament from './components/Tournament'
