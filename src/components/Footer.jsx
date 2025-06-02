@@ -23,7 +23,7 @@ function Footer() {
             </a>
           </div>
 
-          <div className="pt-20">
+          <div className="pt-30">
             <FAQ />
           </div>
           
