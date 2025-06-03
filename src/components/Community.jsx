@@ -9,7 +9,7 @@ function Community() {
             <div className="flex flex-col-reverse gap-4 md:grid md:grid-cols-2 md:items-center md:gap-8">
               <div className="">
                 <img
-                  src="https://images.unsplash.com/photo-1731690415686-e68f78e2b5bd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="https://res.cloudinary.com/dhkfjehat/image/upload/v1748934896/esports-tournament_zcnyy8.jpg"
                   className="rounded-3xl"
                   alt=""
                 />
@@ -18,12 +18,11 @@ function Community() {
               <div>
                 <div className="max-w-lg md:max-w-none">
                   <h2 className="text-2xl font-semibold text-white sm:text-3xl">
-                    <a href="/tournament">Tournaments.</a>
+                    <a href="/tournament">Commuity.</a>
                   </h2>
 
                   <p className="mt-4 text-gray-50">
-                    Join epic gaming tournaments with top players and show your
-                    skill in a competitive arena.
+                    Connect with like-minded gamers, make friends, and team up for legendary victories.
                   </p>
                 </div>
               </div>

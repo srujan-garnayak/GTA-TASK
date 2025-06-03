@@ -2,26 +2,25 @@ import React from "react";
 
 function Event() {
   return (
-    <div>
+    <div id="event">
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
             <div>
               <div className="max-w-lg md:max-w-none">
                 <h2 className="text-2xl font-semibold text-white sm:text-3xl">
-                  <a href="/tournament">Tournaments.</a>
+                  <a href="/tournament">Events.</a>
                 </h2>
 
                 <p className="mt-4 text-gray-50">
-                  Join epic gaming tournaments with top players and show your
-                  skill in a competitive arena.
+                  Participate in custom events, tech showcases, and virtual meetups with prizes.
                 </p>
               </div>
             </div>
 
             <div className="">
               <img
-                src="https://images.unsplash.com/photo-1731690415686-e68f78e2b5bd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://res.cloudinary.com/dhkfjehat/image/upload/v1748935008/WhatsApp_Image_2025-05-09_at_10.53.51_PM_jekf4r.jpg"
                 className="rounded-3xl"
                 alt=""
               />

@@ -2,7 +2,7 @@ import React from "react";
 
 function FAQ() {
   return (
-    <div>
+    <div id="faqs">
       <div className="space-y-4">
         <details
           className="group [&_summary::-webkit-details-marker]:hidden"
@@ -10,7 +10,7 @@ function FAQ() {
         >
           <summary className="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white">
             <h2 className="text-lg font-medium">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
+              What is Game to Aim (GTA)?
             </h2>
 
             <svg
@@ -30,17 +30,14 @@ function FAQ() {
           </summary>
 
           <p className="px-4 pt-4 text-gray-900 dark:text-white">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-            veritatis molestias culpa in, recusandae laboriosam neque aliquid
-            libero nesciunt voluptate dicta quo officiis explicabo consequuntur
-            distinctio corporis earum similique!
+            Game to Aim (GTA) is the official game development club of NIT Rourkela. We provide a collaborative platform for students to work together, discover their interests in game development, and create innovative games using cutting-edge technologies.
           </p>
         </details>
 
         <details className="group [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white">
             <h2 className="text-lg font-medium">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
+              Who can join the GTA club?
             </h2>
 
             <svg
@@ -60,17 +57,14 @@ function FAQ() {
           </summary>
 
           <p className="px-4 pt-4 text-gray-900 dark:text-white">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-            veritatis molestias culpa in, recusandae laboriosam neque aliquid
-            libero nesciunt voluptate dicta quo officiis explicabo consequuntur
-            distinctio corporis earum similique!
+            Any student of NIT Rourkela with an interest in game development, regardless of their branch or year of study, can join our club. We welcome beginners as well as experienced developers.
           </p>
         </details>
 
         <details className="group [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white">
             <h2 className="text-lg font-medium">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
+              Do I need prior programming experience to join?
             </h2>
 
             <svg
@@ -90,10 +84,7 @@ function FAQ() {
           </summary>
 
           <p className="px-4 pt-4 text-gray-900 dark:text-white">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-            veritatis molestias culpa in, recusandae laboriosam neque aliquid
-            libero nesciunt voluptate dicta quo officiis explicabo consequuntur
-            distinctio corporis earum similique!
+            No prior programming experience is required! We provide training, tools, and guidance to help members learn and develop their skills from scratch. Our experienced members and mentors will guide you through your learning journey.
           </p>
         </details>
       </div>

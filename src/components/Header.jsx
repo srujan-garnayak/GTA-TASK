@@ -1,6 +1,8 @@
-import React from "react";
+import React, {  } from "react";
+// import { useNavigate } from "react-router-dom";
 
 function Header() {
+
   return (
     <div className="backdrop-blur-2xl opacity-90 bg-gray-800 border-b-2 border-gray-700 fixed min-w-full z-10">
       <div className="flex justify-between items-center p-2 px-2 sm:px-4 md:px-6">
@@ -13,9 +15,10 @@ function Header() {
           />
         </div>
         <div className="gap-2 sm:gap-3 md:gap-4 flex text-white text-sm sm:text-base">
-          <div>About</div>
-          <div>Events</div>
-          <div>Join</div>
+          <div><a href="#about">About</a></div>
+          <div><a href="#event">Events</a></div>
+          <div><a href="#join">Join</a></div>
+          <div><a href="#faqs">FAQs</a></div>
         </div>
         <div className="mr-2 sm:mr-6 md:mr-10 text-white">
           <button className="border-2 px-2 py-1 sm:px-3 sm:py-1.5 md:px-4 md:py-2 rounded-3xl bg-amber-100 text-amber-900 cursor-pointer text-sm sm:text-base">
