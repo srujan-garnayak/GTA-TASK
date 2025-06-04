@@ -14,14 +14,14 @@ function Header() {
             className="w-8 sm:w-10 md:w-12 lg:w-[50px]"
           />
         </div>
-        <div className="gap-2 sm:gap-3 md:gap-4 flex text-white text-sm sm:text-base">
+        <div className="gap-4 sm:gap-6 md:gap-10 flex items-center text-white text-sm sm:text-base">
           <div><a href="#about">About</a></div>
           <div><a href="#event">Events</a></div>
           <div><a href="#join">Join</a></div>
           <div><a href="#faqs">FAQs</a></div>
         </div>
         <div className="mr-2 sm:mr-6 md:mr-10 text-white">
-          <button className="border-2 px-2 py-1 sm:px-3 sm:py-1.5 md:px-4 md:py-2 rounded-3xl bg-amber-100 text-amber-900 cursor-pointer text-sm sm:text-base">
+          <button className="border-2 px-2 py-1 sm:px-3 sm:py-1.5 md:px-4 md:py-2 rounded-3xl bg-amber-100 text-amber-900 hover:border-amber-100 hover:bg-amber-900 hover:text-white active:opacity-40 cursor-pointer text-sm sm:text-base">
             Sign Up
           </button>
         </div>

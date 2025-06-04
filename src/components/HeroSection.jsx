@@ -20,7 +20,7 @@ function HeroSection() {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
-          <button className="w-full sm:w-auto bg-black/80 hover:bg-black/90 backdrop-blur-sm text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium text-base sm:text-lg transition-all duration-200 border border-white/20 hover:border-white/40">
+          <button className="w-full sm:w-auto bg-black/80 hover:bg-black/90 backdrop-blur-sm text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium text-base sm:text-lg transition-all duration-200 border-2 border-white/20 hover:border-white/40 hover:border-2">
             <a href="#join">Join Now</a>
           </button>
           <button className="w-full sm:w-auto text-white hover:text-gray-200 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium text-base sm:text-lg transition-all duration-200 border-2 border-white/30 hover:border-white/50 backdrop-blur-sm bg-white/10 hover:bg-white/20">
