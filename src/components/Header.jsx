@@ -4,7 +4,7 @@ import React, {  } from "react";
 function Header() {
 
   return (
-    <div className="backdrop-blur-2xl opacity-90 bg-gray-800 border-b-2 border-gray-700 fixed min-w-full z-10">
+    <div className="backdrop-blur-2xl opacity-90 bg-gray-800 border-b-2 border-gray-700 fixed min-w-full z-100">
       <div className="flex justify-between items-center p-2 px-2 sm:px-4 md:px-6">
         <div className="ml-2 sm:ml-6 md:ml-10 flex items-center gap-2 text-white">
           <img
