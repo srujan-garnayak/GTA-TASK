@@ -16,7 +16,7 @@ function HeroSection() {
         </h1>
         
         <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8 sm:mb-12 font-light drop-shadow-lg">
-          Level up your play.
+          Level up your play. Enjoy
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
